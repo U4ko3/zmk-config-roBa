@@ -1,4 +1,6 @@
 #include "roBa.dtsi"
+#include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
 
 &default_transform {
     col-offset = <6>;
@@ -19,6 +21,14 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+
+        scroller {
+            layers = <5>;
+            input-processors =
+                // <&zip_xy_scaler 3 2>,                            // スクロール量の調整
+                <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+                <&zip_xy_to_scroll_mapper>;
+        };
     };
 };
 
