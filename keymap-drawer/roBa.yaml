@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - {t: '-', h: ;}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: ;}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
