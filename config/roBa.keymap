@@ -79,13 +79,13 @@
             key-positions = <24 25>;
         };
 
-        tab2 {
-            bindings = <&kp TAB>;
+        alt_tab {
+            bindings = <&kp RA(TAB)>;
             key-positions = <10 36>;
         };
 
-        shift_tab2 {
-            bindings = <&kp LS(TAB)>;
+        alt_shift_tab {
+            bindings = <&kp LS(RA(TAB))>;
             key-positions = <11 36>;
         };
     };
