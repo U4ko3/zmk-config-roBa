@@ -69,11 +69,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -82,6 +77,16 @@
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        tab2 {
+            bindings = <&kp TAB>;
+            key-positions = <10 36>;
+        };
+
+        shift_tab2 {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <11 36>;
         };
     };
 
@@ -111,7 +116,7 @@
         default_layer {
             bindings = <
 &mt LEFT_SHIFT Q  &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &mt MINUS P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp JP_COLON   &kp H        &kp J  &kp K      &kp L    &mt JP_COLON  MINUS
+&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp JP_COLON   &kp H        &kp J  &kp K      &kp L    &mt JP_COLON MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp RSHFT                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt SEMICOLON SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
