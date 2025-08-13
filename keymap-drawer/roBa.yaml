@@ -318,6 +318,6 @@ combos:
 - p: [24, 25]
   k: '='
 - p: [10, 36]
-  k: TAB
+  k: AltGr+TAB
 - p: [11, 36]
-  k: Sft+TAB
+  k: Sft+AltGr+TAB
