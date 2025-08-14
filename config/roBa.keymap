@@ -82,11 +82,13 @@
         alt_tab {
             bindings = <&kp RA(TAB)>;
             key-positions = <10 36>;
+            timeout-ms = <1500>;
         };
 
         alt_shift_tab {
             bindings = <&kp LS(RA(TAB))>;
             key-positions = <11 36>;
+            timeout-ms = <1500>;
         };
     };
 
