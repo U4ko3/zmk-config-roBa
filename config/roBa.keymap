@@ -78,18 +78,6 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
-
-        alt_tab {
-            bindings = <&kp RA(TAB)>;
-            key-positions = <10 36>;
-            timeout-ms = <500>;
-        };
-
-        alt_shift_tab {
-            bindings = <&kp LS(RA(TAB))>;
-            key-positions = <11 36>;
-            timeout-ms = <500>;
-        };
     };
 
     macros {
@@ -117,10 +105,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_SHIFT Q  &kp W         &kp E         &kp R                        &kp T                                                              &kp Y        &kp U  &lt 5 I    &kp O    &mt MINUS P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp JP_COLON       &kp H        &kp J  &kp K      &kp L    &mt JP_COLON MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp RSHFT                          &kp SEMICOLON      &kp N        &kp M  &kp COMMA  &kp DOT  &mt SEMICOLON SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &mt DEL BACKSPACE  &lt 1 ENTER                             &kp DEL
+&mt LEFT_SHIFT Q  &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &mt MINUS P
+&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp JP_COLON   &kp H        &kp J  &kp K      &kp L    &mt JP_COLON MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp RSHFT                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt SEMICOLON SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -131,7 +119,7 @@
 &kp ESCAPE      &kp TILDE  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK                       &kp F1        &kp F2        &kp F3      &kp F4       &kp F5
 &kp TAB         &trans     &kp INSERT       &kp HOME        &kp PAGE_UP      &trans      &kp F13  &kp F6        &kp F7        &kp F8      &kp F9       &kp F10
 &kp CAPS        &trans     &kp DELETE       &kp END         &kp PAGE_DOWN    &trans      &trans   &kp JP_CARET  &kp JP_TILDE  &kp JP_YEN  &kp JP_PIPE  &kp F11
-&kp LEFT_SHIFT  &trans     &trans           &trans          &trans           &trans      &trans   &trans                                               &kp F12
+&kp LEFT_SHIFT  &trans     &trans           &trans          &trans           &trans      &kp DEL  &trans                                               &kp F12
             >;
         };
 
@@ -157,10 +145,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans          &trans        &trans                      &trans  &msc SCRL_DOWN  &trans    &msc SCRL_UP  &trans
-&trans  &trans  &msc SCRL_DOWN  &msc SCRL_UP  &trans  &trans      &trans  &trans  &mkp MB1        &mkp MB3  &mkp MB2      &trans
-&trans  &trans  &trans          &trans        &trans  &trans      &trans  &trans  &trans          &trans    &trans        &trans
-&trans  &trans  &trans          &trans        &trans  &trans      &trans  &trans                                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &msc SCRL_DOWN  &trans    &msc SCRL_UP  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1        &mkp MB3  &mkp MB2      &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                          &trans
             >;
         };
 
