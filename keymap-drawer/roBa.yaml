@@ -46,7 +46,7 @@ layers:
   - DEL
   FUNCTION:
   - ESCAPE
-  - '~'
+  - '`'
   - PRINTSCREEN
   - SCROLLLOCK
   - PAUSE BREAK
