@@ -41,7 +41,7 @@ layers:
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: '6'}
-  - {t: BACKSPACE, h: DEL}
+  - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
   FUNCTION:
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {type: held}
   - F12
   NUM:
@@ -189,8 +189,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -317,7 +317,3 @@ combos:
   k: '"'
 - p: [24, 25]
   k: '='
-- p: [10, 36]
-  k: AltGr+TAB
-- p: [11, 36]
-  k: Sft+AltGr+TAB
