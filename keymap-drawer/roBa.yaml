@@ -156,9 +156,9 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
+  - Gui+Ctl+LEFT ARROW
   - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
+  - Gui+Ctl+RIGHT ARROW
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
