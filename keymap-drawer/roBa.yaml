@@ -140,7 +140,7 @@ layers:
   - PAGE UP
   - {t: ▽, type: trans}
   - Gui+Ctl+LEFT ARROW
-  - '&LG(LC(RIGHT_ARROW))'
+  - Gui+Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
