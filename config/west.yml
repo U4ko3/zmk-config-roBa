@@ -5,7 +5,7 @@ manifest:
     # 既存のリモートはそのまま維持
 
   projects:
-      # ZMK: DYA Studio 用カスタム RPC サブシステム付き cormoran fork
+    # ZMK: DYA Studio 用カスタム RPC サブシステム付き cormoran fork
     - name: zmk
       remote: cormoran
       revision: v0.3-branch+dya
