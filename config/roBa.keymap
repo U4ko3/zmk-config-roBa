@@ -32,6 +32,18 @@
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 
+// Layer definitions
+
+#define SCROLL_L 5
+
+&scroll_runtime_input_processor {
+    active-layers = <BIT(SCROLL_L)>;
+};
+
+&scroll_runtime_input_processor_l {
+    active-layers = <BIT(SCROLL_L)>;
+};
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
