@@ -29,7 +29,7 @@
                 <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
                 <&zip_xy_to_scroll_mapper>;
         };
-        active-layers = <BIT(5)>;
+        active-layers = <BIT(4)>;
     };
 };
 
