@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - RSHFT
+  - {t: LEFT SHIFT, h: SCROLL}
   - ;
   - N
   - M
@@ -38,9 +38,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
+  - {t: '&to_layer_0 LANGUAGE_2', h: ARROW}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: '6'}
+  - {t: '&to_layer_0 LANGUAGE_1', h: '6'}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
@@ -207,9 +207,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
