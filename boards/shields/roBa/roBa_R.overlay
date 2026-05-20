@@ -34,7 +34,7 @@
         device = <&trackball>;
         input-processors = <
             &mouse_runtime_input_processor
-            //&zip_temp_layer 4 100000 // AMLレイヤー、タイムアウト時間
+            &zip_temp_layer 4 100000 // AMLレイヤー、タイムアウト時間
         >;
 
         scroller {
