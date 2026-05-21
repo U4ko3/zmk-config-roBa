@@ -25,6 +25,12 @@
         device = <&trackball>;
         input-processors = <
             &mouse_runtime_input_processor
+
+            // Enable temp-layer with default settings
+            temp-layer-enabled;  // Boolean property - presence enables it
+            temp-layer = <4>;  // Target layer (default: 0)
+            temp-layer-activation-delay-ms = <100>;  // Activation delay (default: 100)
+            temp-layer-deactivation-delay-ms = <1000>;  // Deactivation delay (default: 500)
         >;
 
         scroller {
