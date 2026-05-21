@@ -18,15 +18,6 @@
             ;
 };
 
-//&zip_temp_layer {
-//    // AMLから離脱しないキー
-//    excluded-positions = <
-//        6 // U 左クリック
-//        7 // I 右クリック
-//        8 // O 中央クリック
-//    >;
-//};
-
 / {
     trackball_listener {
         status = "okay";
@@ -34,7 +25,6 @@
         device = <&trackball>;
         input-processors = <
             &mouse_runtime_input_processor
-//            &zip_temp_layer 4 100000 // AMLレイヤー、タイムアウト時間
         >;
 
         scroller {
