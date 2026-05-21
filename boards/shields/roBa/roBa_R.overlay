@@ -19,22 +19,6 @@
 };
 
 / {
-    input_processors {
-		// Optional: Temp-layer layer default settings
-		temp-layer-enabled;  // Enable temp-layer by default
-		temp-layer = <4>;  // Default to layer 1
-		temp-layer-activation-delay-ms = <100>;  // 100ms activation delay
-		temp-layer-deactivation-delay-ms = <1000>;  // 500ms deactivation delay
-
-		// Optional: Active layers configuration
-		// Bitmask of layers where processor should be active (0 = all layers)
-		// Each bit represents a layer: bit 0 = layer 0, bit 1 = layer 1, etc.
-		// Example: active-layers = <0x00000003> activates on layers 0 and 1 only
-		active-layers = <0>;  // Default: active on all layers
-    };
-};
-
-/ {
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
